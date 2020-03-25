@@ -1,0 +1,33 @@
+body, .nav {
+    margin: 0;
+}
+
+body div:not(.content) {
+    background-color: khaki;
+}
+
+body > div {
+    margin-top: 2vh;
+}
+
+.nav {
+    height: 10vh;
+}
+
+.header, .content {
+    height: 31vh;
+    margin-bottom: 4vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div {
+    width: 31vw;
+}
+
+.footer {
+    height: 18vh;
+}
